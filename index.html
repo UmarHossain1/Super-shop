@@ -24,7 +24,6 @@
       href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
       rel="stylesheet"
     />
-    />
     <!-- Font Awesome CDN -->
     <script
       src="https://kit.fontawesome.com/fd794fe3da.js"
@@ -47,5 +46,148 @@
       };
     </script>
   </head>
-  <body class="font-Sora"></body>
+  <body class="font-Sora">
+    <!-- Header -->
+    <header class="bg-linear-to-b from-[#FFFFFF] to-[#EFEBE3]">
+      <nav>
+        <div class="navbar px-4 lg:px-24 pt-4">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+              >
+                <li><a>Product</a></li>
+                <li><a>Services</a></li>
+                <li><a>Contact us</a></li>
+              </ul>
+            </div>
+            <a class="text-xl cursor-pointer"
+              ><img src="./c2-assets/logo-header.png" alt=""
+            /></a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul
+              class="menu menu-horizontal px-1 text-lg text-gray-500 font-semibold"
+            >
+              <li><a>Product</a></li>
+              <li><a>Services</a></li>
+              <li><a>Contact us</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end hidden lg:flex gap-2">
+            <i class="fa-solid fa-magnifying-glass w-[20px] cursor-pointer"></i>
+            <i class="fa-solid fa-cart-shopping w-[20px] cursor-pointer"></i>
+            <a
+              class="btn bg-white text-gray-500 border text-lg rounded-lg border-green-500 w-[120px] h-[48px]"
+              >Login</a
+            >
+            <a
+              class="btn bg-[#179800] w-[150px] h-[50px] rounded-lg text-white text-lg"
+              >Register</a
+            >
+          </div>
+        </div>
+      </nav>
+      <!-- Banner -->
+      <section class="mt-24">
+        <div class="hero">
+          <div class="hero-content text-center">
+            <div class="">
+              <h1 class="text-6xl font-bold">
+                Freshness
+                <span class="text-[#179800]"
+                  >You Can <br />
+                  Count</span
+                >
+                On, Prices You’ll Love!
+              </h1>
+              <p class="py-6 text-gray-500">
+                Shop your daily essentials at unbeatable prices. From fresh
+                produce to pantry <br />
+                staples, we’ve got you covered every day!
+              </p>
+              <img src="./c2-assets/hero-vegetables.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+    <!-- Main -->
+    <main>
+      <section class="mt-24 md:container mx-auto">
+        <h3 class="mb-12 ml-4 text-3xl font-bold text-[#179800]">Services</h3>
+        <div class="grid grid-cols-1 px-4 gap-4 md:grid-cols-2 lg:grid-cols-4">
+          <div class="card bg-[#EFEBE3]">
+            <div
+              class="card-body rounded-4xl items-center text-center space-y-3"
+            >
+              <img src="./c2-assets/service.png" alt="" />
+              <h3 class="card-title text-2xl">24/7 Services</h3>
+              <p class="text-gray-500">
+                Lorem ipsum dolor sit amet, <br />
+                consectetur adipiscing elit, sed do <br />
+                eiusmod tempor incididunts
+              </p>
+            </div>
+          </div>
+          <div class="card bg-[#EFEBE3]">
+            <div
+              class="card-body rounded-4xl items-center text-center space-y-3"
+            >
+              <img src="./c2-assets/delivery.png" alt="" />
+              <h3 class="card-title text-2xl">Fast Delivery</h3>
+              <p class="text-gray-500">
+                Lorem ipsum dolor sit amet, <br />
+                consectetur adipiscing elit, sed do <br />
+                eiusmod tempor incididunts
+              </p>
+            </div>
+          </div>
+          <div class="card bg-[#EFEBE3]">
+            <div
+              class="card-body rounded-4xl items-center text-center space-y-3"
+            >
+              <img src="./c2-assets/service.png" alt="" />
+              <h3 class="card-title text-2xl">24/7 Services</h3>
+              <p class="text-gray-500">
+                Lorem ipsum dolor sit amet, <br />
+                consectetur adipiscing elit, sed do <br />
+                eiusmod tempor incididunts
+              </p>
+            </div>
+          </div>
+          <div class="card bg-[#EFEBE3]">
+            <div
+              class="card-body rounded-4xl items-center text-center space-y-3"
+            >
+              <img src="./c2-assets/healthy.png" alt="" />
+              <h3 class="card-title text-2xl">Healthy Products</h3>
+              <p class="text-gray-500">
+                Lorem ipsum dolor sit amet, <br />
+                consectetur adipiscing elit, sed do <br />
+                eiusmod tempor incididunts
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
